@@ -20,7 +20,11 @@ class ProjectInput{
         true
       );
         //store the first child that we know that is a Form
-        this.element = importedHTMLContent.firstChild as HTMLFormElement
+        this.element = importedHTMLContent.firstElementChild as HTMLFormElement
+
+
+        
+
         this.attach()
     }
 //function to attack the content from the FORM into another place on the HTML
